@@ -1,0 +1,1 @@
+export const API_URL = 'https://api.timbuk2-ai.com/v1';
