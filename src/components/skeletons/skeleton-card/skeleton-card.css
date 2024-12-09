@@ -1,0 +1,60 @@
+.skeleton-card {
+    border: 1px solid #E4E5E7;
+    border-radius: 15px;
+    width: 368.5px;
+    height: 280px;
+}
+
+.skeleton-icons-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wave-skeleton {
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+
+.star-skeleton {
+    width: 40px;
+    height: 40px;
+    border-radius: 35px;
+}
+
+.skeleton-middle-container {
+    padding: 15px 0 0 20px;
+}
+
+.first-text-skeleton {
+    width: 325px;
+    height: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.second-text-skeleton {
+    width: 220px;
+    height: 10px;
+    border-radius: 15px;
+    margin-bottom: 10px;
+}
+
+.skeleton-bottom-container {
+    padding: 20px;
+}
+
+.skeleton-buttons {
+    display: flex;
+    justify-content: flex-end;
+    padding-top: 20px;
+}
+
+.button-skeleton {
+    width: 90px;
+    height: 40px;
+    margin-right: 10px;
+    border-radius: 5px;
+}

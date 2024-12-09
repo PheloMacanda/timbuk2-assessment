@@ -7,10 +7,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+}
+
+.header-texts p {
+    font-family: 'Inter_28pt-Medium';
 }
 
 .main-app {
-    /* display: flex; */
     position: relative;
     padding: 20px;
 }
@@ -20,4 +24,21 @@
     flex-wrap: wrap;
     gap: 10px;
     padding-top: 10px;
+}
+
+.header-skeleton {
+    width: 200px;
+    height: 10px;
+}
+
+.circle-headers {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.circle-header-skeleton {
+    width: 25px;
+    height: 25px;
+    border-radius: 20px;
 }

@@ -1,5 +1,5 @@
-import { FC } from "react";
-import { MdOutlineWaves, MdStarOutline } from "react-icons/md";
+import { FC, useState } from "react";
+import { MdOutlineWaves, MdStarOutline, MdStar } from "react-icons/md";
 import "./card.css";
 import { Button } from "../button";
 
@@ -7,21 +7,33 @@ type Props = {
     cardName: string;
     cardText: string;
     cardDate: string;
+    isStarActive: boolean;
 }
 
 export const Card: FC<Props> = ({
     cardDate,
     cardName,
-    cardText
+    cardText,
+    isStarActive
 }) => {
+
+    const [starActive, setStarActive] = useState<boolean>(isStarActive);
+
+    const toggleStar = () => {
+        setStarActive(!starActive);
+    };
+
     return (
         <div className="card">
             <div className="icons-container">
                 <div className="wave-container">
                     <MdOutlineWaves size={24} className="wave" />
                 </div>
-                <div className="star-container">
-                    <MdStarOutline size={24} className="star" />
+                <div className="star-container" onClick={toggleStar}>
+                    {starActive ?
+                        <MdStarOutline size={24} className="star" /> :
+                        <MdStar size={24} className="star" />
+                    }
                 </div>
             </div>
             <div className="middle-container">
