@@ -96,12 +96,12 @@
 }
 
 .feature-card {
-    background-color: #f5f5f5;
     padding: 10px;
     margin: 10px;
-    border-radius: 5px;
+    border-radius: 15px;
     align-items: center;
     justify-content: space-between;
+    border: 1px solid var(--gray-500);
 }
 
 .feature-card-container {
@@ -119,4 +119,19 @@
 
 .menu2 {
     background-color: #fff;
+}
+
+.md-close-icon {
+    color: var(--gray-500);
+}
+
+.top-header-text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bar-menu-item:hover {
+    background-color: var(--violet-100);
 }

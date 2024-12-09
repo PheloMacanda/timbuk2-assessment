@@ -7,9 +7,9 @@ import "./home.css";
 
 export const Home = () => {
 
-    const [showSkeletons, setShowSkeletons] = useState<boolean>(false);
+    const [showSkeletons] = useState<boolean>(false);
 
-    const toggleSkeletons = () => setShowSkeletons(!showSkeletons);
+    // const toggleSkeletons = () => setShowSkeletons(!showSkeletons);
 
     return (
         <div className="main-container">
