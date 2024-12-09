@@ -1,0 +1,13 @@
+.main-container {
+    display: flex;
+}
+
+.main-app {
+    /* display: flex; */
+    position: relative;
+    padding: 20px;
+}
+
+.cards {
+    padding-top: 10px;
+}

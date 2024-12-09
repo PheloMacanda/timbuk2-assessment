@@ -1,0 +1,122 @@
+.side {
+    height: 100vh;
+    width: 150px;
+    background-color: #fff;
+}
+
+.toggle-btn {
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #000;
+}
+
+.toggle-btn-collapsed {
+    padding: 30px 10px 10px 10px;
+    text-align: center;
+    cursor: pointer;
+    color: #000;
+    background-color: #fff;
+}
+
+.profile {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.names {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.search {
+    display: flex;
+    position: relative;
+    background-color: #fff;
+}
+
+.menu1 {
+    padding: 20px 0 120px 0;
+    background-color: #fff;
+}
+
+.search-collapsed-container {
+    border: 1px solid #dfdfdf;
+    border-radius: 10px;
+    margin: 0px 10px 0 10px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    position: relative;
+    background-color: #0F0840;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    margin: 0 auto;
+    color: #fff;
+}
+
+.company-name {
+    margin: 10px 0 10px 10px;
+}
+
+.icon {
+    position: absolute;
+    box-sizing: border-box;
+    left: 28px;
+    bottom: 9px;
+    transform: translateY(-50%);
+}
+
+.search-collapsed {
+    padding-top: 30px;
+    height: 6vh;
+    background-color: #fff;
+}
+
+.search input {
+    width: calc(100% - 60px);
+    margin: 10px 20px;
+    padding: 12px 0 12px 25px;
+    border: 1px solid #dfdfdf;
+    background-color: #f4f0f0;
+    border-radius: 10px;
+}
+
+.feature-card {
+    background-color: #f5f5f5;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.feature-card-container {
+    flex: 1;
+    background-color: #fff;
+}
+
+.feature-text {
+    flex: 2;
+}
+
+.feature-image img {
+    border-radius: 5px;
+}
+
+.menu2 {
+    background-color: #fff;
+}
