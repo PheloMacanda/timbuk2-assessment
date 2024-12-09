@@ -3,12 +3,14 @@ import './button.css';
 
 type Props = {
     buttonText: string;
+    variant: "primary" | "secondary";
 }
 
 export const Button:FC<Props> = ({
-    buttonText
+    buttonText,
+    variant
 }) => {
     return (
-        <button>{buttonText}</button>
+        <button className={`${variant}-btn`}>{buttonText}</button>
     );
 };

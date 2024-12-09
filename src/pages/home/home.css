@@ -2,6 +2,13 @@
     display: flex;
 }
 
+.header-texts {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
 .main-app {
     /* display: flex; */
     position: relative;
@@ -9,5 +16,8 @@
 }
 
 .cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
     padding-top: 10px;
 }

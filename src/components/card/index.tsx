@@ -1,12 +1,17 @@
 import { FC } from "react";
 import { MdOutlineWaves, MdStarOutline } from "react-icons/md";
 import "./card.css";
+import { Button } from "../button";
 
 type Props = {
+    cardName: string;
     cardText: string;
+    cardDate: string;
 }
 
 export const Card: FC<Props> = ({
+    cardDate,
+    cardName,
     cardText
 }) => {
     return (
@@ -19,11 +24,21 @@ export const Card: FC<Props> = ({
                     <MdStarOutline size={24} className="star" />
                 </div>
             </div>
-            <p>Timbuk2 * 5 days ago</p>
-            <p>{cardText}</p>
-            <div>
-                <button>Download</button>
-                <button>View</button>
+            <div className="middle-container">
+                <p className="card-name-date">{cardName} &#8226; {cardDate}</p>
+                <p className="card-text">{cardText}</p>
+            </div>
+            <div className="bottom-container">
+                <div className="buttons">
+                    <Button
+                        buttonText="Download"
+                        variant="secondary"
+                    />
+                    <Button
+                        buttonText="View"
+                        variant="primary"
+                    />
+                </div>
             </div>
         </div>
     );

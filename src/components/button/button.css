@@ -1,0 +1,30 @@
+
+.primary-btn {
+    border: 1px solid var(--violet-400);
+    padding: 10px 15px 10px 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: var(--violet-100);
+    color: var(--violet-400);
+}
+
+.secondary-btn {
+    border: 1px solid var(--gray-300);
+    padding: 10px 15px 10px 15px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: var(--background-color);
+}
+
+.primary-btn:hover {
+    cursor: pointer;
+    background-color: var(--violet-200);
+    border-color: var(--violet-300);
+}
+
+.secondary-btn:hover {
+    cursor: pointer;
+    background-color: var(--gray-200);
+    color: var(--gray-400);
+}

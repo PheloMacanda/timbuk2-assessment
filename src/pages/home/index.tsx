@@ -7,10 +7,40 @@ export const Home = () => {
         <div className="main-container">
             <SideNavBar />
             <div className="main-app">
-                Your items
-                <div className='cards'>
-                    <Card 
-                        cardText='Item 1'
+                <div className="header-texts">
+                    <p>Your items</p>
+                    <p>View all</p>
+                </div>
+                <div className="cards">
+                    <Card
+                        cardName="Timbuk2"
+                        cardText="Item 1"
+                        cardDate="5 days ago"
+                    />
+                    <Card
+                        cardName="Timbuk2"
+                        cardText="Item 1"
+                        cardDate="5 days ago"
+                    />
+                    <Card
+                        cardName="Timbuk2"
+                        cardText="Item 1"
+                        cardDate="5 days ago"
+                    />
+                    <Card
+                        cardName="Timbuk2"
+                        cardText="Item 1"
+                        cardDate="5 days ago"
+                    />
+                    <Card
+                        cardName="Timbuk2"
+                        cardText="Item 1"
+                        cardDate="5 days ago"
+                    />
+                    <Card
+                        cardName="Timbuk2"
+                        cardText="Item 1"
+                        cardDate="5 days ago"
                     />
                 </div>
             </div>
