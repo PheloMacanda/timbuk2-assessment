@@ -1,3 +1,79 @@
+@font-face {
+  font-family: 'Inter_18pt-Light';
+  src: url('./assets/fonts/Inter/Inter_18pt-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_18pt-Regular';
+  src: url('./assets/fonts/Inter/Inter_18pt-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_18pt-SemiBold';
+  src: url('./assets/fonts/Inter/Inter_18pt-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_24pt-Bold';
+  src: url('./assets/fonts/Inter/Inter_24pt-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_24pt-Light';
+  src: url('./assets/fonts/Inter/Inter_28pt-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_28pt-Light';
+  src: url('./assets/fonts/Inter/Inter_28pt-Light.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_28pt-Medium';
+  src: url('./assets/fonts/Inter/Inter_28pt-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Inter_28pt-SemiBold';
+  src: url('./assets/fonts/Inter/Inter_18pt-SemiBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit-Bold';
+  src: url('./assets/fonts/Outfit/Outfit-Bold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit-ExtraBold';
+  src: url('./assets/fonts/Outfit/Outfit-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit-Medium';
+  src: url('./assets/fonts/Outfit/Outfit-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Outfit-Regular';
+  src: url('./assets/fonts/Outfit/Outfit-Regular.ttf') format('truetype');
+}
+
 .App {
-  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --violet-100: #F7F2FF;
+  --violet-200: #E1D1FF;
+  --violet-300: #C4A6FF;
+  --violet-400: #9F70FA;
+  --gray-100: #EFF0F1;
+  --gray-200: #E4E5E7;
+  --gray-300: #C6CACE;
+  --gray-400: #8C959D;
+  --gray-500: #656D76;
+  --text-color: #000000;
+  --background-color: #ffffff;
 }

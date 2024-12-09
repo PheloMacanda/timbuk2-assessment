@@ -1,7 +1,7 @@
 import { FC, useState } from 'react';
 import { Sidebar, Menu, MenuItem } from 'react-pro-sidebar';
 import { FaSearch, FaHome, FaBook, FaShoppingCart, FaChartLine, FaCog, FaLifeRing, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
-import Image2 from '../../assets/image2.png';
+import Image2 from '../../assets/images/image2.png';
 import './sidebar.css';
 
 type Props = {

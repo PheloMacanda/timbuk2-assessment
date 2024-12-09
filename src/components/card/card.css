@@ -1,0 +1,40 @@
+.card {
+    border: 1px solid #E4E5E7;
+    border-radius: 15px;
+    width: 368.5px;
+}
+
+.icons-container {
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.wave-container {
+    background-color: var(--violet-100);
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.wave {
+    color: var(--violet-400);
+}
+
+.star-container {
+    background-color: var(--gray-100);
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.star {
+    color: var(--text-color);
+}
