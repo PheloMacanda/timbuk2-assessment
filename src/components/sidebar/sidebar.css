@@ -102,10 +102,10 @@
     align-items: center;
     justify-content: space-between;
     border: 1px solid var(--gray-500);
+    background-color: #FDFDFB;
 }
 
 .feature-card-container {
-    flex: 1;
     background-color: #fff;
 }
 
@@ -134,4 +134,29 @@
 
 .bar-menu-item:hover {
     background-color: var(--violet-100);
+}
+
+/* Style for active menu items */
+.ps-menu-root .ps-menuitem-root .ps-active {
+    background: #f3e8ff;
+    /* Light purple background */
+    color: #6200ea;
+    /* Purple text */
+}
+
+/* Adjusting icon and text for active menu items */
+.ps-menu-icon .ps-active {
+    color: #6200ea;
+    /* Purple icon color */
+}
+
+.ps-menu-label .ps-active {
+    color: #6200ea;
+    /* Purple icon color */
+}
+
+/* Hover effect for menu items */
+.ps-sidebar .ps-menu-item:hover {
+    background: #eceff1;
+    /* Light gray on hover */
 }
