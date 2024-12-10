@@ -21,7 +21,7 @@ export const Home = () => {
                         <p>Your items</p>
                         <p onClick={toggleSkeletons} className="skeleton-click">Show Skeleton Loader</p>
                     </div> :
-                    <div>
+                    <div className="header-texts">
                         <Skeleton className="header-skeleton" />
                         <div className="circle-headers">
                             <Skeleton className="circle-header-skeleton" />
