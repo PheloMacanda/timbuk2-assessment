@@ -1,6 +1,54 @@
-.skeleton-bar-container {
-    background-color: #000;
-    color: #fff;
-    width: 20px;
-    height: 20px;
+.skeleton-container {
+    width: 450px;
+    margin: auto;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #e0e0e0;
+    margin: 15px 0 0 15px;
+}
+
+.skeleton-avatar {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.skeleton-avatar-text {
+    margin-left: 15px;
+    width: 100%;
+}
+
+.skeleton-line {
+    margin-bottom: 10px;
+}
+
+.skeleton-box-section {
+    margin-top: 40px;
+    padding-top: 100px;
+}
+
+.skeleton-box-line {
+    margin-bottom: 10px;
+}
+
+.skeleton-box {
+    margin-top: 10px;
+    border: 1px solid var(--gray-100);
+    border-radius: 15px;
+    height: 150px;
+    padding: 20px;
+    width: 83%;
+}
+
+.skeleton-circle-line-container {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+.skeleton-circle-line {
+    margin-bottom: 10px;
+}
+
+.skeleton-last-box {
+    margin-top: 20px;
 }

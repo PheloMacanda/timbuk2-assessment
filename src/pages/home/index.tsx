@@ -4,6 +4,7 @@ import { SideNavBar } from "../../components/sidebar";
 import Skeleton from "react-loading-skeleton";
 import { SkeletonCard } from "../../components/skeletons/skeleton-card";
 import "./home.css";
+import { SkeletonSidebar } from "../../components/skeletons/skeleton-sidebar";
 
 export const Home = () => {
 
@@ -13,7 +14,7 @@ export const Home = () => {
 
     return (
         <div className="main-container">
-            <SideNavBar />
+            {showSkeletons ? <SkeletonSidebar /> : <SideNavBar />}
             <div className="main-app">
                 {!showSkeletons ?
                     <div className="header-texts">
