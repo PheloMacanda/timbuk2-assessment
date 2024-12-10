@@ -38,7 +38,7 @@ export const Card: FC<Props> = ({
             </div>
             <div className="middle-container">
                 <p className="card-name-date">{cardName} &#8226; {cardDate}</p>
-                <p className="card-text">{cardText}</p>
+                <p className="card-text">{cardText.length > 125 ? cardText.substring(0, 125) + "...": cardText}</p>
             </div>
             <div className="bottom-container">
                 <div className="buttons">

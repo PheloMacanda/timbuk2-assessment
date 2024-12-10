@@ -7,9 +7,9 @@ import "./home.css";
 
 export const Home = () => {
 
-    const [showSkeletons] = useState<boolean>(false);
+    const [showSkeletons, setShowSkeletons] = useState<boolean>(false);
 
-    // const toggleSkeletons = () => setShowSkeletons(!showSkeletons);
+    const toggleSkeletons = () => setShowSkeletons(!showSkeletons);
 
     return (
         <div className="main-container">
@@ -18,7 +18,7 @@ export const Home = () => {
                 {!showSkeletons ?
                     <div className="header-texts">
                         <p>Your items</p>
-                        <p>Show all</p>
+                        <p onClick={toggleSkeletons} className="skeleton-click">Show Skeleton Loader</p>
                     </div> :
                     <div>
                         <Skeleton className="header-skeleton" />
@@ -38,31 +38,31 @@ export const Home = () => {
                         />
                         <Card
                             cardName="Timbuk2"
-                            cardText="Item 1"
+                            cardText="Item 2"
                             cardDate="5 days ago"
                             isStarActive={false}
                         />
                         <Card
                             cardName="Timbuk2"
-                            cardText="Item 1"
+                            cardText="Item 3"
                             cardDate="5 days ago"
                             isStarActive={false}
                         />
                         <Card
                             cardName="Timbuk2"
-                            cardText="Item 1"
+                            cardText="Item 4"
                             cardDate="5 days ago"
                             isStarActive={false}
                         />
                         <Card
                             cardName="Timbuk2"
-                            cardText="Item 1"
+                            cardText="Item 5,Item 5,Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5, Item 5"
                             cardDate="5 days ago"
                             isStarActive
                         />
                         <Card
                             cardName="Timbuk2"
-                            cardText="Item 1"
+                            cardText="Item 6"
                             cardDate="5 days ago"
                             isStarActive
                         />

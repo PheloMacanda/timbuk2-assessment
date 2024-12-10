@@ -144,13 +144,36 @@
     /* Purple text */
 }
 
-.css-1654oxy >.ps-menu-button {
-    background: #f3e8ff;
+.css-1654oxy>.ps-menu-button::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    height: 70%;
+    align-self: center;
+    /* Thickness of the purple line */
+    background-color: #6200ea;
+    /* Purple line color */
+    border-radius: 0 4px 4px 0;
+    /* Rounded edge for the line */
 }
 
-.css-1654oxy >.ps-menu-button:hover {
+.css-1654oxy>.ps-menu-button {
+    background: #f3e8ff;
+    position: relative;
+    /* Positioning for the purple line */
+    padding-left: 10px;
+    padding-right: 10px;
+    /* Indent for text and icon alignment */
+    overflow: hidden;
+}
+
+.css-1654oxy>.ps-menu-button:hover {
     background: #f3e8ff !important;
 }
+
 /* Adjusting icon and text for active menu items */
 .ps-menu-icon .ps-active {
     color: #6200ea;

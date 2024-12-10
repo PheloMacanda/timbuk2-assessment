@@ -42,3 +42,8 @@
     height: 25px;
     border-radius: 20px;
 }
+
+.skeleton-click {
+    cursor: pointer;
+    transition: all ease-in-out 1s;
+}
