@@ -137,13 +137,20 @@
 }
 
 /* Style for active menu items */
-.ps-menu-root .ps-menuitem-root .ps-active {
+.ps-menu-button .ps-active {
     background: #f3e8ff;
     /* Light purple background */
     color: #6200ea;
     /* Purple text */
 }
 
+.css-1654oxy >.ps-menu-button {
+    background: #f3e8ff;
+}
+
+.css-1654oxy >.ps-menu-button:hover {
+    background: #f3e8ff !important;
+}
 /* Adjusting icon and text for active menu items */
 .ps-menu-icon .ps-active {
     color: #6200ea;
